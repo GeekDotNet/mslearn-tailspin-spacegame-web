@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  name: 'LocalAgent'
+pool: default  
 
 variables:
   solution: '**/*.sln'
